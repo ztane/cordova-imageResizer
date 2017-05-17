@@ -154,6 +154,9 @@ public class ImageResizePlugin extends CordovaPlugin {
             } catch (URISyntaxException e) {
                 Log.d("PLUGIN", e.getMessage());
                 callbackContext.error(e.getMessage());
+            } catch (Exception e) {
+                Log.d("PLUGIN", e.getMessage());
+                callbackContext.error(e.getMessage());
             }
         }
     }
@@ -178,6 +181,9 @@ public class ImageResizePlugin extends CordovaPlugin {
                 Log.d("PLUGIN", e.getMessage());
                 callbackContext.error(e.getMessage());
             } catch (URISyntaxException e) {
+                Log.d("PLUGIN", e.getMessage());
+                callbackContext.error(e.getMessage());
+            } catch (Exception e) {
                 Log.d("PLUGIN", e.getMessage());
                 callbackContext.error(e.getMessage());
             }
@@ -236,6 +242,9 @@ public class ImageResizePlugin extends CordovaPlugin {
                 Log.d("PLUGIN", e.getMessage());
                 callbackContext.error(e.getMessage());
             } catch (URISyntaxException e) {
+                Log.d("PLUGIN", e.getMessage());
+                callbackContext.error(e.getMessage());
+            } catch (Exception e) {
                 Log.d("PLUGIN", e.getMessage());
                 callbackContext.error(e.getMessage());
             }
